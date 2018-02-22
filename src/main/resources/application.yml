@@ -1,0 +1,12 @@
+health.config.enabled: false
+
+spring:
+  application:
+    name: ${name:gateway}
+  cloud:
+    consul:
+      discovery:
+      tags: ${discovery.tags:'urlprefix-/v1/ proto=http tlsskipverify=true'}
+
+server:
+  port: ${port:8886}

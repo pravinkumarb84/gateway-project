@@ -1,1 +1,1 @@
-# gateway-project
+# bg-support-spring-gateway
